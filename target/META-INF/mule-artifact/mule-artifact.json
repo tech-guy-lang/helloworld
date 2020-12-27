@@ -1,0 +1,25 @@
+{
+  "configs": [
+    "hello-world.xml"
+  ],
+  "secureProperties": [],
+  "redeploymentEnabled": true,
+  "name": "org.mule.examples:hello-world:2.1.5-SNAPSHOT",
+  "minMuleVersion": "4.1.1",
+  "requiredProduct": "MULE_EE",
+  "classLoaderModelLoaderDescriptor": {
+    "id": "mule",
+    "attributes": {
+      "exportedPackages": [],
+      "exportedResources": [
+        "hello-world.xml",
+        "log4j2.xml",
+        "mule-artifact.properties"
+      ]
+    }
+  },
+  "bundleDescriptorLoader": {
+    "id": "mule",
+    "attributes": {}
+  }
+}
